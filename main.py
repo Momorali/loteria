@@ -12,7 +12,7 @@ def gerar_palpites(dezenas_loteria, palpite_loteria, quantidade):
 
 def contabilizar_resultados_loteria(tipo, numeros_apostados):
     # Carregar o arquivo XLSX
-    file = pd.read_excel('/DEV/Loteria/dados/quina_asloterias_ate_concurso_6184_sorteio.xlsx', engine='openpyxl')
+    file = pd.read_excel('dados/quina_asloterias_ate_concurso_6184_sorteio.xlsx', engine='openpyxl')
 
     # Inicializar contadores
     duques = 0
