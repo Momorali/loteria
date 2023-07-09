@@ -1,8 +1,8 @@
 import pandas as pd
 
 def contabilizar_resultados_loteria(tipo):
-    # Carregar o arquivo CSV
-    file = pd.read_csv('caminho/do/arquivo.csv')
+    # Carregar o arquivo XLSX
+    file = pd.read_excel('caminho/do/arquivo.xlsx', engine='openpyxl')
 
     # Inicializar contadores
     quadras = 0
